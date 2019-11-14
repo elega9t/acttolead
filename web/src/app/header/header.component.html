@@ -1,5 +1,4 @@
-  <div id="background-wrapper" class="buildings" data-stellar-background-ratio="0.1">
-
+<div id="background-wrapper" class="buildings" data-stellar-background-ratio="0.1">
     <!-- ======== @Region: #navigation ======== -->
     <div id="navigation" class="wrapper">
       <!--Hidden Header Region-->
@@ -70,8 +69,7 @@
                   </h1>
               </a>
               <div class="navbar-slogan">
-                Responsive HTML Theme
-                <br> By BootstrapMade.com
+                {{ 'Intro' | translate:user }}
               </div>
             </div>
             <!--header rightside-->
@@ -80,6 +78,12 @@
               <ul class="list-inline user-menu pull-right">
                 <li class="user-button"><a class="btn btn-primary btn-hh-trigger" role="button" data-toggle="collapse" data-target=".header-hidden">Open</a></li>
               </ul>
+
+              <ul class="languageSelector list-inline user-menu pull-right">
+                <li class="user-register"> <button (click)="switchLanguage('en')" class="btn btn-xs btn-primary">English</button></li>
+                <li class="user-login"> <button (click)="switchLanguage('hi')" class="btn btn-xs btn-primary">Hindi</button></li>
+              </ul>
+
               <ul class="list-inline user-menu pull-right">
                 <li class="user-register"><i class="fa fa-edit text-primary "></i> <a  class="text-uppercase">Register</a></li>
                 <li class="user-login"><i class="fa fa-sign-in text-primary"></i> <a  class="text-uppercase">Login</a></li>
