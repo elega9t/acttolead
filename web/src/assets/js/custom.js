@@ -71,14 +71,6 @@ $(document).ready(function() {
     return false;
   });
 
-  // OwlCarousel
-  $('[data-toggle="owlcarousel"], [data-toggle="owl-carousel"]').each(function() {
-    var $this = $(this),
-      owlCarouselSettings = $this.data('owlcarousel-settings') || {};
-
-    $this.owlCarousel(owlCarouselSettings);
-  });
-
   //initialise Stellar.js
   $(window).stellar({
     responsive: true,

@@ -7,7 +7,7 @@
           <div class="row">
             <div class="col-md-3">
               <h3>
-                  About Us
+                  {{ ABOUT_US | translate }}
                 </h3>
               <p>Flexor is a super flexible responsive theme with a modest design touch.</p>
               <a href="about.html" class="btn btn-more"><i class="fa fa-plus"></i> Learn more</a>
@@ -81,12 +81,12 @@
 
               <ul class="languageSelector list-inline user-menu pull-right">
                 <li class="user-register"> <button (click)="switchLanguage('en')" class="btn btn-xs btn-primary">English</button></li>
-                <li class="user-login"> <button (click)="switchLanguage('hi')" class="btn btn-xs btn-primary">Hindi</button></li>
+                <li class="user-login"> <button (click)="switchLanguage('hi')" class="btn btn-xs btn-primary">हिंदी</button></li>
               </ul>
 
               <ul class="list-inline user-menu pull-right">
-                <li class="user-register"><i class="fa fa-edit text-primary "></i> <a  class="text-uppercase">Register</a></li>
-                <li class="user-login"><i class="fa fa-sign-in text-primary"></i> <a  class="text-uppercase">Login</a></li>
+                <li class="user-register"><i class="fa fa-edit text-primary "></i> <a routerLink="/register" class="text-uppercase">Register</a></li>
+                <li class="user-login"><i class="fa fa-sign-in text-primary"></i> <a routerLink="/login" class="text-uppercase">Login</a></li>
               </ul>
             </div>
           </div>

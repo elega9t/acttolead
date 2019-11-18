@@ -330,7 +330,8 @@
 .block .block-title {
   margin-top: 0;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 30px;    
+  font-weight: 400;
 }
 .block .block-title:after {
   width: 80px;
@@ -1279,6 +1280,7 @@
   .text-right-sm {
     text-align: right !important;
   }
+
 }
 @media (min-width: 992px) {
   .text-center-md {
@@ -1630,7 +1632,7 @@ a.btn-hh-trigger.target-open:after {
 }
 #content {
   padding: 20px 0 20px 0;
-  background: #ffffff;
+  /*background: #ffffff;*/
 }
 #content > .block:first-child {
   margin-top: -20px;
@@ -1801,9 +1803,9 @@ a.btn-hh-trigger.target-open:after {
   display: block;
   text-shadow: none;
   line-height: 1;
-  background: url(../img/logo.png) left top no-repeat;
+  /*background: url(../img/logo.png) left top no-repeat;
   height: 30px;
-  width: 145px;
+  width: 145px;*/
 }
 .navbar-brand:hover {
   text-decoration: none;
@@ -2046,6 +2048,9 @@ a.btn-hh-trigger.target-open:after {
 @media (max-width:  768px) {
   .user-register {
     display: block !important;
+  }  
+  .h-xlg.h1{
+    font-size: 52px;
   }
 }
 

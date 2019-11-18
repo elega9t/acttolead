@@ -1,0 +1,38 @@
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #000;
+    background-color: #fbb12f;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #000;
+    background-color: #fbb12f;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #212324;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #212324;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.dropdown.open{
+    color: #000;
+    background-color: #fbb12f;	
+}
+.dropdown-menu>li>a {
+    text-transform: uppercase;
+}
+.navbar-brand > img {
+    padding-top: 4px;
+}
+
+@media (min-width: 768px){
+.navbar-right .dropdown-menu {
+    right: auto;
+    left: 0;
+    margin-top: 10px;
+}
+}
